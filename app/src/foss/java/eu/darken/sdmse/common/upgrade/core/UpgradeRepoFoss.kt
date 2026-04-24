@@ -37,7 +37,7 @@ class UpgradeRepoFoss @Inject constructor(
         refreshTrigger
     ) { data, _ ->
         if (data == null) {
-            Info()
+            Info(isPro = true)
         } else {
             Info(
                 isPro = true,
